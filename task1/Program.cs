@@ -5,5 +5,6 @@ Console.Clear();
 int tmp = 1;
 while(tmp <= number)
 {
-    Console.WriteLine(tmp * tmp); tmp++;
+    int res = tmp * tmp;
+    Console.WriteLine($"{tmp} = {res}"); tmp++;
 }
